@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
-import { voteSchema } from './vote.js';
-import { commentSchema } from './comment.js';
+import { voteSchema } from './vote';
+import { commentSchema } from './comment';
 
 export const answerSchema = new Schema({
   author: {

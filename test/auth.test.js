@@ -1,10 +1,10 @@
 import request from 'supertest';
 import mongoose from 'mongoose';
 import jwtDecode from 'jwt-decode';
-import app from '../src/app.js';
+import app from '../src/app';
 import { validUser } from './factories';
 const User = mongoose.model('user');
-import { hashPassword } from '../src/utils/authentication.js';
+import { hashPassword } from '../src/utils/authentication';
 
 process.env.TEST_SUITE = 'auth';
 

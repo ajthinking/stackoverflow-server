@@ -1,5 +1,5 @@
-import Question from '../models/question.js';
-import User from '../models/user.js';
+import Question from '../models/question';
+import User from '../models/user';
 import { body, validationResult } from 'express-validator';
 
 export const loadQuestions = async (req, res, next, id) => {

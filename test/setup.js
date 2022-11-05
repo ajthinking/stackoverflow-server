@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { connect } from '../src/index.js';
-import config from '../src/config.js';
+import { connect } from '../src/index';
+import config from '../src/config';
 
 const clearDb = (done) => {
   mongoose.connection.dropDatabase();

@@ -1,4 +1,4 @@
-export { answerAuth } from './answerAuth.js';
-export { commentAuth } from './commentAuth.js';
-export { questionAuth } from './questionAuth.js';
-export { requireAuth } from './requireAuth.js';
+export { answerAuth } from './answerAuth';
+export { commentAuth } from './commentAuth';
+export { questionAuth } from './questionAuth';
+export { requireAuth } from './requireAuth';

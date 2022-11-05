@@ -1,0 +1,16 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules"],		
+  "compilerOptions": {
+	  "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+	  "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */                     /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+	  "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+	  "module": "commonjs",                                /* Specify what module code is generated. */
+	  "outDir": "./build",                                  /* Specify an output folder for all emitted files. *//* Specify the root folder within your source files. */
+	  "rootDir": "./src",     
+	  "skipLibCheck": true,
+	  "strict": true,                                      /* Enable all strict type-checking options. */
+	  "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+	  // "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */                    /* Skip type checking .d.ts files that are included with TypeScript. */
+  }
+}

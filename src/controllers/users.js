@@ -1,8 +1,8 @@
-import User from '../models/user.js';
+import User from '../models/user';
 import jwtDecode from 'jwt-decode';
 import { body, validationResult } from 'express-validator';
 
-import { createToken, hashPassword, verifyPassword } from '../utils/authentication.js';
+import { createToken, hashPassword, verifyPassword } from '../utils/authentication';
 
 export const signup = async (req, res) => {
   const result = validationResult(req);

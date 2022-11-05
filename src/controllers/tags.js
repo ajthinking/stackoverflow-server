@@ -1,4 +1,4 @@
-import Question from '../models/question.js';
+import Question from '../models/question';
 
 export const listPopulerTags = async (req, res, next) => {
   try {

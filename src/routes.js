@@ -1,13 +1,6 @@
 import { Router } from 'express';
 
-import {
-  validateUser,
-  signup,
-  authenticate,
-  listUsers,
-  search,
-  find
-} from './controllers/users.js';
+import { validateUser, signup, authenticate, listUsers, search, find } from './controllers/users';
 
 import {
   loadQuestions,
@@ -18,13 +11,13 @@ import {
   listByTags,
   listByUser,
   removeQuestion
-} from './controllers/questions.js';
-import { loadAnswers, answerValidate, createAnswer, removeAnswer } from './controllers/answers.js';
-import { listPopulerTags, searchTags, listTags } from './controllers/tags.js';
-import { upvote, downvote, unvote } from './controllers/votes.js';
-import { loadComments, validate, createComment, removeComment } from './controllers/comments.js';
+} from './controllers/questions';
+import { loadAnswers, answerValidate, createAnswer, removeAnswer } from './controllers/answers';
+import { listPopulerTags, searchTags, listTags } from './controllers/tags';
+import { upvote, downvote, unvote } from './controllers/votes';
+import { loadComments, validate, createComment, removeComment } from './controllers/comments';
 
-import { answerAuth, commentAuth, questionAuth, requireAuth } from './middlewares/index.js';
+import { answerAuth, commentAuth, questionAuth, requireAuth } from './middlewares/index';
 
 const router = Router();
 

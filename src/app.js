@@ -6,7 +6,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 
 const app_ = express();
-import { routes } from './routes.js';
+import { routes } from './routes';
 
 app_.use(cors());
 app_.use(morgan('dev'));
