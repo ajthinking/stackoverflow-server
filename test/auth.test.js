@@ -1,7 +1,7 @@
 import request from 'supertest';
 import mongoose from 'mongoose';
 import jwtDecode from 'jwt-decode';
-import app from '../srcapp.js';
+import app from '../src/app.js';
 import { validUser } from './factories';
 const User = mongoose.model('user');
 import { hashPassword } from '../src/utils/authentication.js';
