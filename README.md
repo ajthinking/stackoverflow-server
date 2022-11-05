@@ -5,6 +5,7 @@ Simplified clone of Stackoverflow. This repo holds the _Server_. [See client her
 ## :rocket: Tech Stack
 
 - NodeJs
+- TypeScript
 - Express
 - MongoDB
 - Mongoose
@@ -72,7 +73,7 @@ $ yarn test
         # push subdirectory repository with subtree
         $ git subtree push --prefix server heroku master
 
-## Acknowledgments
+## :crown: Acknowledgments
 
 This is a continuation of [salihozdemir/stackoverflow-clone](https://github.com/salihozdemir/stackoverflow-clone)
 
